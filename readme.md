@@ -6,10 +6,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
-<p align="center">
+<p align="justify">
     Laravel - PHP based web application that allows you to set up your file management system as your personal file cloud and it also helps to set up your user management system.
 </p>
+
+
 ## Key Features
+
 - Attractive modern & responsive interface<br>
 - Advanced user role & permission<br>
 - Drag & Drop files uploader<br>
@@ -20,7 +23,8 @@
 - Manage file extensions<br>
 - Enable/disable user registration<br>
 - File manager panel<br>
-- 
+
+
 ## Server Requirements
 
 -PHP 7.2.19+ <br>
