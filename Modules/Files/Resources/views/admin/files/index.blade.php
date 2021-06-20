@@ -33,11 +33,11 @@
     <script>
     (function () {
         "use strict";
-        
+
         @if(!auth()->user()->isAdmin() && !setting('delete_assign_folder_files'))
             CI.langs['admin::admin.delete.confirmation_message'] = '{{ clean(trans('admin::admin.delete.confirmation_message')) }}'+'\n{{ clean(trans('files::files.delete_note_for_user')) }}';
         @endif
-        
+
         @if(setting('enable_file_download') || setting('enable_file_move') || setting('enable_file_share'))
             var btnShare='';
             var btnDownloadZip='';
@@ -48,16 +48,12 @@
             @if(setting('enable_file_move'))
                 var btnMoveFiles='<a class="dropdown-item btn-moreaction" href="#" id="btnMove"><i class="fas fa-cut"></i> {{ clean(trans("files::files.action.move_files")) }}</a>';
             @endif
-            @if(setting('enable_file_share'))
-                var btnShare='<a class="dropdown-item" href="#" id="btnShare"><i class="fas fa-share-square"></i> {{ clean(trans("files::files.action.share")) }}</a>';
-            @endif
-            
-        
+
             var btnHTML='<div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" type="button" id="btn-moreAction" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled="disabled">{{ clean(trans("files::files.table.action")) }}</button><div class="dropdown-menu" aria-labelledby="btn-moreAction">'+btnShare+btnMoveFiles+btnDownloadZip+'</div></div>';
-            
+
             DataTable.customBtn(btnHTML);
         @endif
-        
+
         new DataTable('#files-table .table', {
             columns: [
                 { data: 'checkbox', orderable: false, searchable: false, width: '3%' },
@@ -70,7 +66,7 @@
                 { data: 'action', name: 'action',orderable: false, searchable: false,className:"noclickable" },
             ],
         });
-    })();  
+    })();
     </script>
 @endpush
 
