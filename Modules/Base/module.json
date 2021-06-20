@@ -1,0 +1,20 @@
+{
+    "name": "Base",
+    "alias": "base",
+    "description": "The CynoInfotech Base Module.",
+    "version": "1.0.0",
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Base\\Providers\\BaseServiceProvider",
+        "Modules\\Base\\Providers\\AssetServiceProvider",
+        "Modules\\Base\\Providers\\MySQLScoutServiceProvider",
+        "Maatwebsite\\Sidebar\\SidebarServiceProvider",
+        "Modules\\Base\\Providers\\SidebarServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ],
+    "requires": []
+}

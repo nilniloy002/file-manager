@@ -1,0 +1,18 @@
+{
+    "name": "User",
+    "alias": "user",
+    "description": "The CynoInfotech User & Role Module.",
+    "keywords": [],
+    "active": 1,
+    "order": 10,
+    "providers": [
+        "Modules\\User\\Providers\\UserServiceProvider",
+        "Modules\\User\\Providers\\RouteServiceProvider",
+        "Modules\\User\\Providers\\SocialLoginServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "helpers.php"
+    ],
+    "requires": []
+}
