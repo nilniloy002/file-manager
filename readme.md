@@ -30,10 +30,10 @@ Step 2: Creating Database
 
 -Create a database for project. Import database from project folder: db>waltonfilemangerdb.sql
 
-Change the .env file 
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
+Change the .env file <br>
+DB_DATABASE=<br>
+DB_USERNAME=<br>
+DB_PASSWORD=<br>
 
 Step 3: Run the project via command
 php artisan serve
