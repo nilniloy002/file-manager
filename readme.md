@@ -9,16 +9,16 @@
 
 ## Server Requirements
 
--PHP 7.2.19+
--MySQL 5.6+
--Intl PHP Extension
--OpenSSL PHP Extension
--PDO PHP Extension
--Mbstring PHP Extension
--Tokenizer PHP Extension
--XML PHP Extension
--Ctype PHP Extension
--JSON PHP Extension
+-PHP 7.2.19+ <br>
+-MySQL 5.6+<br>
+-Intl PHP Extension<br>
+-OpenSSL PHP Extension<br>
+-PDO PHP Extension<br>
+-Mbstring PHP Extension<br>
+-Tokenizer PHP Extension<br>
+-XML PHP Extension<br>
+-Ctype PHP Extension<br>
+-JSON PHP Extension<br>
 
 ## Project Installation Process
 
@@ -35,12 +35,12 @@ DB_DATABASE=<br>
 DB_USERNAME=<br>
 DB_PASSWORD=<br>
 
-Step 3: Run the project via command
+Step 3: Run the project via command<br>
 php artisan serve
 
 Step 4: Go to the project: http://127.0.0.1:8000
 
-Step 5: For Credentials
+Step 5: For Credentials<br>
 
-Email: admin@example.com
+Email: admin@example.com<br>
 Password: niloy1234
