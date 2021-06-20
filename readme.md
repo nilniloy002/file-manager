@@ -28,7 +28,7 @@ git clone https://github.com/nilniloy002/file-manager.git
 
 Step 2: Creating Database
 
--Create a database for project. Import database from project folder: db>waltonfilemangerdb.sql
+-Create a database for project. Import database from project folder: <b>db>waltonfilemangerdb.sql</b>
 
 Change the .env file <br>
 DB_DATABASE=<br>
@@ -36,7 +36,8 @@ DB_USERNAME=<br>
 DB_PASSWORD=<br>
 
 Step 3: Run the project via command<br>
-php artisan serve
+
+<b>php artisan serve</b>
 
 Step 4: Go to the project: http://127.0.0.1:8000
 
