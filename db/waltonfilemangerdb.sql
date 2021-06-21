@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 20, 2021 at 06:18 PM
+-- Generation Time: Jun 21, 2021 at 06:55 AM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 7.4.15
 
@@ -118,7 +118,15 @@ INSERT INTO `activity_log` (`id`, `log_name`, `description`, `subject_id`, `subj
 (47, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:06:45\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:06:45\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:06:45\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:06:45\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 10:06:45', '2021-06-20 10:06:45'),
 (48, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:07:18\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:07:18\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:07:18\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:07:18\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 10:07:18', '2021-06-20 10:07:18'),
 (49, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:08:08\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:08:08\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:08:08\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:08:08\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 10:08:08', '2021-06-20 10:08:08'),
-(50, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:08:33\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:08:33\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:08:33\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:08:33\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 10:08:33', '2021-06-20 10:08:33');
+(50, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:08:33\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:08:33\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:08:33\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:08:33\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 10:08:33', '2021-06-20 10:08:33'),
+(51, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:32:34\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:32:34\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:32:34\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:32:34\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 10:32:34', '2021-06-20 10:32:34'),
+(52, 'file', 'created', 16, 'Modules\\Files\\Entities\\Files', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"user_id\":1,\"folder_id\":\"1\",\"disk\":\"public_storage\",\"filename\":\"tbs-unb.jpg\",\"path\":\"http:\\/\\/localhost\\/file-manager\\/public\\/storage\\/Files\\/main\\/uSaqPRCLzGM6r4hkfcfvbo7XUXRn66AkKeb4XLm5.jpeg\",\"extension\":\"jpeg\",\"mime\":\"image\\/jpeg\",\"size\":81494,\"updated_at\":\"2021-06-20 16:33:19\",\"created_at\":\"2021-06-20 16:33:19\",\"id\":16},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 16:32:34\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 16:32:34\",\"full_name\":\"Niloy Saha\",\"roles\":[{\"id\":1,\"slug\":\"admin\",\"name\":\"Admin\",\"permissions\":{\"admin.users.index\":true,\"admin.users.create\":true,\"admin.users.edit\":true,\"admin.users.destroy\":true,\"admin.roles.index\":true,\"admin.roles.create\":true,\"admin.roles.edit\":true,\"admin.roles.destroy\":true,\"admin.translations.index\":false,\"admin.translations.edit\":false,\"admin.settings.edit\":true,\"admin.files.manager\":true,\"admin.files.index\":true,\"admin.files.create\":true,\"admin.files.edit\":true,\"admin.files.destroy\":true,\"admin.files-extension.index\":true,\"admin.files-extension.create\":true,\"admin.files-extension.destroy\":true,\"admin.folders.index\":true,\"admin.folders.create\":true,\"admin.folders.edit\":true,\"admin.folders.destroy\":true,\"admin.activity.index\":false,\"admin.media.index\":true,\"admin.media.create\":true,\"admin.media.destroy\":true},\"created_at\":\"2021-06-20 03:42:42\",\"updated_at\":\"2021-06-20 03:42:42\",\"pivot\":{\"user_id\":1,\"role_id\":1,\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 03:42:43\"}}]}}', '2021-06-20 10:33:19', '2021-06-20 10:33:19'),
+(53, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 17:42:07\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 17:42:07\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 17:42:07\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 17:42:07\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 11:42:07', '2021-06-20 11:42:07'),
+(54, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 17:59:20\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 17:59:20\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 17:59:20\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 17:59:20\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 11:59:20', '2021-06-20 11:59:20'),
+(55, 'file', 'download', 16, 'Modules\\Files\\Entities\\Files', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":16,\"user_id\":1,\"folder_id\":1,\"filename\":\"tbs-unb.jpg\",\"description\":null,\"disk\":\"public_storage\",\"path\":\"http:\\/\\/localhost\\/file-manager\\/public\\/storage\\/Files\\/main\\/uSaqPRCLzGM6r4hkfcfvbo7XUXRn66AkKeb4XLm5.jpeg\",\"extension\":\"jpeg\",\"mime\":\"image\\/jpeg\",\"size\":\"81494\",\"download\":1,\"created_at\":\"2021-06-20 16:33:19\",\"updated_at\":\"2021-06-20 16:33:19\",\"folder\":{\"id\":1,\"parent_id\":null,\"name\":\"main\",\"slug\":\"main\",\"position\":null,\"assign_toall\":true,\"public_download\":false,\"is_active\":true,\"created_at\":null,\"updated_at\":null}},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-20 17:59:20\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 17:59:20\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 12:03:35', '2021-06-20 12:03:35'),
+(56, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-21 04:34:00\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-21 04:34:00\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-21 04:34:00\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-21 04:34:00\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 22:34:00', '2021-06-20 22:34:00'),
+(57, 'user', 'login', 1, 'Modules\\User\\Entities\\User', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-21 04:51:24\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-21 04:51:24\",\"full_name\":\"Niloy Saha\"},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-21 04:51:24\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-21 04:51:24\",\"full_name\":\"Niloy Saha\"}}', '2021-06-20 22:51:24', '2021-06-20 22:51:24'),
+(58, 'file', 'created', 17, 'Modules\\Files\\Entities\\Files', 1, 'Modules\\User\\Entities\\User', '{\"subject\":{\"user_id\":1,\"folder_id\":\"1\",\"disk\":\"public_storage\",\"filename\":\"MySQL-Logo.wine.png\",\"path\":\"http:\\/\\/localhost\\/file-manager\\/public\\/storage\\/Files\\/main\\/pBoJYFsQa8p3nu8b8aYCLPmTTC5UCQVhAgxjui1Z.png\",\"extension\":\"png\",\"mime\":\"image\\/png\",\"size\":39031,\"updated_at\":\"2021-06-21 04:52:50\",\"created_at\":\"2021-06-21 04:52:50\",\"id\":17},\"causer\":{\"id\":1,\"first_name\":\"Niloy\",\"last_name\":\"Saha\",\"email\":\"admin@example.com\",\"permissions\":[],\"file_size\":null,\"last_login\":\"2021-06-21 04:51:24\",\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-21 04:51:24\",\"full_name\":\"Niloy Saha\",\"roles\":[{\"id\":1,\"slug\":\"admin\",\"name\":\"Admin\",\"permissions\":{\"admin.users.index\":true,\"admin.users.create\":true,\"admin.users.edit\":true,\"admin.users.destroy\":true,\"admin.roles.index\":true,\"admin.roles.create\":true,\"admin.roles.edit\":true,\"admin.roles.destroy\":true,\"admin.translations.index\":false,\"admin.translations.edit\":false,\"admin.settings.edit\":true,\"admin.files.manager\":true,\"admin.files.index\":true,\"admin.files.create\":true,\"admin.files.edit\":true,\"admin.files.destroy\":true,\"admin.files-extension.index\":true,\"admin.files-extension.create\":true,\"admin.files-extension.destroy\":true,\"admin.folders.index\":true,\"admin.folders.create\":true,\"admin.folders.edit\":true,\"admin.folders.destroy\":true,\"admin.activity.index\":false,\"admin.media.index\":true,\"admin.media.create\":true,\"admin.media.destroy\":true},\"created_at\":\"2021-06-20 03:42:42\",\"updated_at\":\"2021-06-20 03:42:42\",\"pivot\":{\"user_id\":1,\"role_id\":1,\"created_at\":\"2021-06-20 03:42:43\",\"updated_at\":\"2021-06-20 03:42:43\"}}]}}', '2021-06-20 22:52:50', '2021-06-20 22:52:50');
 
 -- --------------------------------------------------------
 
@@ -172,7 +180,7 @@ CREATE TABLE `files` (
 INSERT INTO `files` (`id`, `user_id`, `folder_id`, `filename`, `description`, `disk`, `path`, `extension`, `mime`, `size`, `download`, `created_at`, `updated_at`) VALUES
 (5, 1, 2, 'istockphoto-182370767-612x612.jpg', NULL, 'public_storage', 'Files/main/Niloy/2MTYNc6FWx9sItgQ3ZIRE5e97TCYf7bh5JnX7Rj9.jpeg', 'jpeg', 'image/jpeg', '17341', 0, '2021-06-20 07:46:26', '2021-06-20 07:47:19'),
 (4, 1, 2, 'd0280d114267487.6037c97bd908e.jpg', NULL, 'public_storage', 'Files/main/Niloy/UzPZWlpITCuVHALA96Z2WDHooGlVP01Kfo3YCUVK.jpeg', 'jpeg', 'image/jpeg', '77963', 0, '2021-06-20 07:46:25', '2021-06-20 07:47:19'),
-(3, 1, 2, '1.jpg', NULL, 'public_storage', 'Files/main/Niloy/uLchFS9glGN0DV5kgnnHYRzatsR2dP2mawHLh6qL.jpeg', 'jpeg', 'image/jpeg', '33298', 0, '2021-06-19 21:57:06', '2021-06-20 07:47:19'),
+(3, 1, 4, '1.jpg', NULL, 'public_storage', 'Files/new-root/test/uLchFS9glGN0DV5kgnnHYRzatsR2dP2mawHLh6qL.jpeg', 'jpeg', 'image/jpeg', '33298', 0, '2021-06-19 21:57:06', '2021-06-20 12:11:23'),
 (6, 1, 1, 'istockphoto-859863336-612x612.jpg', NULL, 'public_storage', 'Files/main/yXzNLY24TdglBi24E5O2qv9kLOZt2n6q77q9HTdM.jpeg', 'jpeg', 'image/jpeg', '21213', 0, '2021-06-20 07:46:27', '2021-06-20 07:46:27'),
 (7, 1, 1, 'product-furniture-8.jpg', NULL, 'public_storage', 'Files/main/BAtlPlpdrgsFdmrkm6uwmqtHJ1oXcNN6LhW1WfcX.jpeg', 'jpeg', 'image/jpeg', '28286', 0, '2021-06-20 07:46:28', '2021-06-20 07:46:28'),
 (8, 1, 1, 'product-furniture-8-2.jpg', NULL, 'public_storage', 'Files/main/SEnYRKAbRDpVHXS935JudxblwuFIbOAyDVf5duiy.jpeg', 'jpeg', 'image/jpeg', '20708', 0, '2021-06-20 07:46:28', '2021-06-20 07:46:28'),
@@ -182,7 +190,9 @@ INSERT INTO `files` (`id`, `user_id`, `folder_id`, `filename`, `description`, `d
 (12, 1, 1, '21-feb-2.jpg', NULL, 'public_storage', 'Files/main/oAPxbPcdPe63gD2jY6vHd6OHWOStCX9Ax9gT2Fwj.jpeg', 'jpeg', 'image/jpeg', '286843', 0, '2021-06-20 07:46:53', '2021-06-20 07:46:53'),
 (13, 1, 1, '3606158_Md Mustafizur Rahman (1).jpg', NULL, 'public_storage', 'Files/main/BUUoYHs4Q8ReIQv1LCsQtbvKy7mcaJzAzYLhK3SA.jpeg', 'jpeg', 'image/jpeg', '23563', 0, '2021-06-20 07:46:54', '2021-06-20 07:46:54'),
 (14, 1, 1, '3620914_Md Mustafizur Rahman.jpg', NULL, 'public_storage', 'Files/main/8JbVoJyudcNxIyt1f5ZQezsWuQBrzUpSqjbloTBk.jpeg', 'jpeg', 'image/jpeg', '25661', 0, '2021-06-20 07:46:55', '2021-06-20 07:46:55'),
-(15, 1, 1, 'christmas_lamp_187448.jpg', NULL, 'public_storage', 'Files/main/tuiUsnhwaZlioTWKMNknGO56CoFy6jiE4dmzdSEY.jpeg', 'jpeg', 'image/jpeg', '46395', 0, '2021-06-20 07:46:55', '2021-06-20 07:46:55');
+(15, 1, 1, 'christmas_lamp_187448.jpg', NULL, 'public_storage', 'Files/main/tuiUsnhwaZlioTWKMNknGO56CoFy6jiE4dmzdSEY.jpeg', 'jpeg', 'image/jpeg', '46395', 0, '2021-06-20 07:46:55', '2021-06-20 07:46:55'),
+(16, 1, 1, 'tbs-unb.jpg', NULL, 'public_storage', 'Files/main/uSaqPRCLzGM6r4hkfcfvbo7XUXRn66AkKeb4XLm5.jpeg', 'jpeg', 'image/jpeg', '81494', 1, '2021-06-20 10:33:19', '2021-06-20 12:03:35'),
+(17, 1, 1, 'MySQL-Logo.wine.png', NULL, 'public_storage', 'Files/main/pBoJYFsQa8p3nu8b8aYCLPmTTC5UCQVhAgxjui1Z.png', 'png', 'image/png', '39031', 0, '2021-06-20 22:52:50', '2021-06-20 22:52:50');
 
 -- --------------------------------------------------------
 
@@ -338,7 +348,7 @@ CREATE TABLE `persistences` (
 
 INSERT INTO `persistences` (`id`, `user_id`, `code`, `created_at`, `updated_at`) VALUES
 (2, 1, 'u8ESGSV9QalxjdbB5MlcivKplYEetPbd', '2021-06-19 21:56:47', '2021-06-19 21:56:47'),
-(20, 1, 'e8vLFXOVIFLE72mZ7f42eKxAOlcdAt1C', '2021-06-20 10:08:33', '2021-06-20 10:08:33');
+(25, 1, 'qAcGOt2BToAc0GWWtRh50pLzu2a19DMq', '2021-06-20 22:51:24', '2021-06-20 22:51:24');
 
 -- --------------------------------------------------------
 
@@ -520,7 +530,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `email`, `password`, `permissions`, `file_size`, `last_login`, `created_at`, `updated_at`) VALUES
-(1, 'Niloy', 'Saha', 'admin@example.com', '$2y$10$VgtOUE3isp9keJRd/bR5tOAze6fDPFPnArMTBSkbn1kqUXAqY04ZS', NULL, NULL, '2021-06-20 16:08:33', '2021-06-19 21:42:43', '2021-06-20 10:08:33'),
+(1, 'Niloy', 'Saha', 'admin@example.com', '$2y$10$VgtOUE3isp9keJRd/bR5tOAze6fDPFPnArMTBSkbn1kqUXAqY04ZS', NULL, NULL, '2021-06-21 04:51:24', '2021-06-19 21:42:43', '2021-06-20 22:51:24'),
 (2, 'User', 'Saha', 'user@admin.com', '$2y$10$uftejXjQo/ZEPNWWUIs4beek4QSmTfQyFbGs40Lid3EvgfpSkBOkS', NULL, NULL, '2021-06-20 13:02:18', '2021-06-19 21:42:43', '2021-06-20 07:02:18');
 
 -- --------------------------------------------------------
@@ -742,7 +752,7 @@ ALTER TABLE `activations`
 -- AUTO_INCREMENT for table `activity_log`
 --
 ALTER TABLE `activity_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
 
 --
 -- AUTO_INCREMENT for table `entity_media`
@@ -754,7 +764,7 @@ ALTER TABLE `entity_media`
 -- AUTO_INCREMENT for table `files`
 --
 ALTER TABLE `files`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `files_shares`
@@ -790,7 +800,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `persistences`
 --
 ALTER TABLE `persistences`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `reminders`

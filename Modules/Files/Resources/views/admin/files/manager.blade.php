@@ -111,7 +111,6 @@
                 var btnMoveFiles='<a class="dropdown-item btn-moreaction" href="#" id="btnMove"><i class="fas fa-cut"></i> {{ clean(trans("files::files.action.move_files")) }}</a>';
             @endif
             
-
             var btnHTML='<div class="dropdown d-inline-block"><button class="btn btn-primary dropdown-toggle" type="button" id="btn-moreAction" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" disabled="disabled">{{ clean(trans("files::files.table.action")) }}</button><div class="dropdown-menu" aria-labelledby="btn-moreAction">'+btnShare+btnMoveFiles+btnDownloadZip+'</div></div>';
 
             DataTable.customBtn(btnHTML);
